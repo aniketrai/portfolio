@@ -9,7 +9,8 @@ import { FlexLayoutModule } from '@angular/flex-layout';
         NavBarComponent,
     ],
     imports: [
-        CommonModule
+        CommonModule,
+        MaterialModule
     ],
     exports: [
         NavBarComponent,

@@ -1,7 +1,6 @@
 import { Routes } from '@angular/router';
 
 export const appRoutes: Routes = [
-    // { path: 'crisis-center', component: CrisisListComponent },
     {
         path: 'home', loadChildren: () => import('./home/home.module').then(mod => mod.HomeModule),
     },

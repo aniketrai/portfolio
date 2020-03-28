@@ -4,9 +4,13 @@ import { HomeComponent } from './home.component';
 import { CoreModule } from '../core/core.module';
 import { RouterModule } from '@angular/router';
 import { appRoutes } from './home-routing.module';
+import { WorkExperienceComponent } from './work-experience/work-experience.component';
+import { NavBarMenuComponent } from './nav-bar-menu/nav-bar-menu.component';
+import { SkillsComponent } from './skills/skills.component';
+import { OverviewComponent } from './overview/overview.component';
 
 @NgModule({
-  declarations: [HomeComponent],
+  declarations: [HomeComponent, WorkExperienceComponent, NavBarMenuComponent, SkillsComponent, OverviewComponent],
   imports: [
     CommonModule,
     CoreModule,

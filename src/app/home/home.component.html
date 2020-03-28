@@ -1,16 +1,15 @@
-<div fxLayout="row" style="margin-top: 4%;">
-
+<div fxLayout="row">
     <div fxFlexOffset="12"></div>
-    <div fxFlex="15">
-        <mat-card style="background-color: #4a63e7;">
+    <div fxFlex="15" class="main">
+        <mat-card>
             <app-nav-bar></app-nav-bar>
             <app-nav-bar-menu></app-nav-bar-menu>
         </mat-card>
     </div>
     <div fxFlexOffset="3"></div>
 
-    <div fxFlex="58">
-        <mat-card style="background-color: #4a63e7;">
+    <div fxFlex="58" class="main">
+        <mat-card>
             <router-outlet></router-outlet>
         </mat-card>
     </div>

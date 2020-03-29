@@ -1,17 +1,17 @@
-<div fxLayout="row">
-    <div fxFlexOffset="12"></div>
-    <div fxFlex="15" class="main">
+<div fxLayout.gt-sm="row" fxLayout="column">
+    <div fxFlexOffset.gt-sm="12"></div>
+    <div fxFlex.gt-sm="15" fxFlex="100" class="main">
         <mat-card>
             <app-nav-bar></app-nav-bar>
             <app-nav-bar-menu></app-nav-bar-menu>
         </mat-card>
     </div>
-    <div fxFlexOffset="3"></div>
+    <div fxFlexOffset.gt-sm="3"></div>
 
-    <div fxFlex="58" class="main">
+    <div fxFlex.gt-sm="58" fxFlex="100" class="main">
         <mat-card>
             <router-outlet></router-outlet>
         </mat-card>
     </div>
-    <div fxFlexOffset="12"></div>
+    <div fxFlexOffset.gt-sm="12"></div>
 </div>

@@ -16,14 +16,6 @@
     <div fxFlexOffset.gt-sm="12"></div>
 </div>
 <div fxLayout="column" fxShow fxHide.gt-sm="true" class="mobile-view">
-    <mat-toolbar>
-        <mat-toolbar-row>
-            <img src="../../../assets/selfie.jpg" class="avator" />
-            <span class="example-spacer"></span>
-            <mat-icon class="example-icon" aria-hidden="false" [matMenuTriggerFor]="menu">more_vert</mat-icon>
-            <mat-menu #menu="matMenu">
-                <app-nav-bar-menu></app-nav-bar-menu>
-            </mat-menu>
-        </mat-toolbar-row>
-    </mat-toolbar>
+    <app-overview-compact-view></app-overview-compact-view>
+
 </div>

@@ -8,9 +8,10 @@ import { WorkExperienceComponent } from './work-experience/work-experience.compo
 import { NavBarMenuComponent } from './nav-bar-menu/nav-bar-menu.component';
 import { SkillsComponent } from './skills/skills.component';
 import { OverviewComponent } from './overview/overview.component';
+import { OverviewCompactViewComponent } from './overview-compact-view/overview-compact-view.component';
 
 @NgModule({
-  declarations: [HomeComponent, WorkExperienceComponent, NavBarMenuComponent, SkillsComponent, OverviewComponent],
+  declarations: [HomeComponent, WorkExperienceComponent, NavBarMenuComponent, SkillsComponent, OverviewComponent, OverviewCompactViewComponent],
   imports: [
     CommonModule,
     CoreModule,

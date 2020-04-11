@@ -9,9 +9,18 @@ import { NavBarMenuComponent } from './nav-bar-menu/nav-bar-menu.component';
 import { SkillsComponent } from './skills/skills.component';
 import { OverviewComponent } from './overview/overview.component';
 import { OverviewCompactViewComponent } from './overview-compact-view/overview-compact-view.component';
+import { ConnectComponent } from './connect/connect.component';
 
 @NgModule({
-  declarations: [HomeComponent, WorkExperienceComponent, NavBarMenuComponent, SkillsComponent, OverviewComponent, OverviewCompactViewComponent],
+  declarations: [
+    HomeComponent,
+    WorkExperienceComponent,
+    NavBarMenuComponent,
+    SkillsComponent,
+    OverviewComponent,
+    OverviewCompactViewComponent,
+    ConnectComponent
+  ],
   imports: [
     CommonModule,
     CoreModule,

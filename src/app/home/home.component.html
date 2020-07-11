@@ -10,12 +10,13 @@
 
     <div fxFlex.gt-sm="58" fxFlex="100" class="main">
         <mat-card>
-            <router-outlet></router-outlet>
+            <div class="container">
+                <router-outlet></router-outlet>
+            </div>
         </mat-card>
     </div>
     <div fxFlexOffset.gt-sm="12"></div>
 </div>
 <div fxLayout="column" fxShow fxHide.gt-sm="true" class="mobile-view">
     <app-overview-compact-view></app-overview-compact-view>
-
 </div>

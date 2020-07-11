@@ -4,6 +4,10 @@ mat-card {
 
 .main {
   margin: 4rem 1rem;
+  .container {
+    height: 100%;
+    overflow: hidden;
+  }
 }
 
 .mobile-view {

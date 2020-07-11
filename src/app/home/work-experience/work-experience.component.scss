@@ -8,10 +8,19 @@ div {
 
 .work-container {
   margin-bottom: 5rem;
+  #timespan {
+    font-style: italic;
+  }
 }
 
 .mindtree-avator {
   background-image: url("../../../assets/mindtree-logo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hach-avator {
+  background-image: url("../../../assets/Hach-Logo.png");
   background-size: cover;
   background-repeat: no-repeat;
 }

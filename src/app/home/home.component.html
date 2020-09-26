@@ -1,7 +1,7 @@
 <div fxLayout.gt-sm="row" fxHide fxShow.gt-sm="true">
   <div fxFlexOffset.gt-sm="2"></div>
   <div fxFlex class="main">
-    <mat-grid-list cols="5" rowHeight="46rem">
+    <mat-grid-list cols="5" rowHeight="43rem">
       <mat-grid-tile [colspan]="1" [rowspan]="1">
         <mat-card>
           <mat-card-content>
@@ -11,13 +11,9 @@
         </mat-card>
       </mat-grid-tile>
       <mat-grid-tile [colspan]="4" [rowspan]="1">
-        <mat-card>
-          <mat-card-content>
-            <div class="container">
-              <router-outlet></router-outlet>
-            </div>
-          </mat-card-content>
-        </mat-card>
+        <div class="container">
+          <router-outlet></router-outlet>
+        </div>
       </mat-grid-tile>
     </mat-grid-list>
   </div>

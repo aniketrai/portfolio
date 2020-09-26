@@ -14,7 +14,7 @@ export const appRoutes: Routes = [
       },
       {
         path: 'skills',
-        component: WorkExperienceComponent
+        component: SkillsComponent
       },
       {
         path: '',

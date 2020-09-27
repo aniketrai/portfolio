@@ -4,25 +4,23 @@ div {
 }
 
 .heading {
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-bottom: 1.2rem;
 }
 
-.work-container {
-  margin-bottom: 5rem;
-  #timespan {
-    font-style: italic;
-  }
+mat-expansion-panel{
+  margin: 3rem 1.5rem;
+  // color: ;
 }
 
 .mindtree-avator {
-  background-image: url("../../../assets/mindtree-logo.png");
+  background-image: url("../../../../assets/mindtree-logo.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .hach-avator {
-  background-image: url("../../../assets/Hach-Logo.png");
+  background-image: url("../../../../assets/Hach-Logo.png");
   background-size: cover;
   background-repeat: no-repeat;
 }

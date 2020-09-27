@@ -1,7 +1,7 @@
+@import '../../styles/styles.scss';
+ 
 mat-card {
-  background-color: #4a63e7;
-  // height: 80%;
-
+  background-color: $base-color;
   box-shadow: none !important;
 }
 

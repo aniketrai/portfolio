@@ -3,14 +3,21 @@ div {
   color: white;
 }
 
+.details {
+  color: #4a63e7;
+}
+
 .heading {
   font-size: 1.5rem;
   margin-bottom: 1.2rem;
 }
 
-mat-expansion-panel{
+mat-expansion-panel {
   margin: 3rem 1.5rem;
-  // color: ;
+}
+
+mat-panel-title {
+  color: #4a63e7 !important;
 }
 
 .mindtree-avator {

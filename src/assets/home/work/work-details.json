@@ -1,0 +1,21 @@
+[
+  {
+    "id": 1,
+    "companyName": "Mindtree Ltd",
+    "duration": "Jan 2017 - Jun 2019",
+    "title": "Software Engineer",
+    "jobDescription": [
+      "Worked with latest Microsoft technologies as a Full stack engineer.",
+      "Being a part of CTO group(MS CoE) worked on multiple PoCs to which were demonstrated to client and helped to win the contract. "
+    ]
+  },
+  {
+    "id": 2,
+    "companyName": "Hach|Danaher Corporation",
+    "duration": "Jun 2019 - present",
+    "title": "Software Engineer II",
+    "jobDescription": [
+      "Joined Mindtree as a Fresher. Underwent training for 3 months, later got tagged to CTO group of Mindtree."
+    ]
+  }
+]

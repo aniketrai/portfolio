@@ -1,32 +1,8 @@
 <div fxLayout="row">
   <div fxFlex>
     <div class="heading">Work experience</div>
-    <mat-expansion-panel [expanded]="true">
-      <mat-expansion-panel-header>
-        <mat-panel-title>
-          <mat-icon>account_circle</mat-icon>
-          Mindtree
-        </mat-panel-title>
-        <mat-panel-description
-          ><span id="timespan">Jan 2017 - June 2019</span>
-        </mat-panel-description>
-      </mat-expansion-panel-header>
-      <div class="details">
-        Joined Mindtree as a Fresher. Underwent training for 3 months, later got
-        tagged to CTO group of Mindtree.
-      </div>
-    </mat-expansion-panel>
-
-    <mat-expansion-panel [expanded]="true">
-      <mat-expansion-panel-header>
-        <mat-panel-title>
-          <mat-icon>account_circle</mat-icon>
-          Hach
-        </mat-panel-title>
-        <mat-panel-description
-          ><span id="timespan">June 2019 - Present</span></mat-panel-description
-        >
-      </mat-expansion-panel-header>
-    </mat-expansion-panel>
+    <app-work-experience-details
+      [workDetails]="workDetails$ | async"
+    ></app-work-experience-details>
   </div>
 </div>

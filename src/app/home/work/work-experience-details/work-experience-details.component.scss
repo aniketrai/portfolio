@@ -1,0 +1,23 @@
+mat-divider {
+  // border: solid #4a63e7;
+}
+
+mat-expansion-panel {
+  margin-top: 1.5rem;
+  margin-bottom: 5rem;
+}
+
+mat-panel-description {
+  text-align: right;
+}
+
+.vertical-divider {
+  border-left: 6px solid white;
+  height: 5rem;
+  position: absolute;
+  left: 48%;
+  margin-top: -5rem;
+}
+.details {
+  margin-top: 1rem;
+}

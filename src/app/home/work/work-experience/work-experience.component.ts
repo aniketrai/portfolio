@@ -1,4 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+import { Observable } from 'rxjs';
+import { WorkExperienceService } from '../work-experience.service';
+import { WorkDetail } from '../work.classes';
+import { WorkModule } from '../work.module';
 
 @Component({
   selector: 'app-work-experience',
@@ -7,7 +11,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class WorkExperienceComponent implements OnInit {
 
-  constructor() { }
+  workDetails$: Observable<WorkDetail[]>;
+
+  constructor(private dataService: WorkExperienceService) {
+    this.workDetails$ = this.dataService.getWorkDetails();
+  }
 
   ngOnInit() {
   }

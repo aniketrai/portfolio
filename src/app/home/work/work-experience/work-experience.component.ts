@@ -14,10 +14,10 @@ export class WorkExperienceComponent implements OnInit {
   workDetails$: Observable<WorkDetail[]>;
 
   constructor(private dataService: WorkExperienceService) {
-    this.workDetails$ = this.dataService.getWorkDetails();
   }
 
   ngOnInit() {
+    this.workDetails$ = this.dataService.getWorkDetails();
   }
 
 }

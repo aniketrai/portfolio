@@ -11,6 +11,6 @@ export class WorkExperienceService {
   constructor(private httpService: HttpClient) { }
 
   public getWorkDetails(): Observable<WorkDetail[]> {
-    return this.httpService.get<WorkDetail[]>('../../../assets/home/work/work-details.json');
+    return this.httpService.get<WorkDetail[]>('assets/home/work/work-details.json');
   }
 }

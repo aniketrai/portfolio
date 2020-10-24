@@ -1,4 +1,4 @@
-<div fxLayout.gt-sm="row" fxHide fxShow.gt-sm="true">
+<div fxLayout.gt-sm="row" *ngIf="isDesktop">
   <div fxFlexOffset.gt-sm="2"></div>
   <div fxFlex class="main">
     <mat-grid-list cols="5" rowHeight="43rem">
@@ -19,6 +19,6 @@
   </div>
   <div fxFlexOffset.gt-sm="2"></div>
 </div>
-<div fxLayout="column" fxShow fxHide.gt-sm="true" class="mobile-view">
+<div fxLayout="column" *ngIf="!isDesktop" class="mobile-view">
   <app-overview-compact-view></app-overview-compact-view>
 </div>

@@ -6,6 +6,7 @@ export class WorkDetail {
     jobDescription: string[];
     techStack: string[];
     projects: ProjectDetails[];
+    logo: string;
 }
 
 export class ProjectDetails {

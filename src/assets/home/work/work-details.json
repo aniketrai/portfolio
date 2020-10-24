@@ -30,7 +30,8 @@
         ],
         "techStack": ["Angular 4", ".NET WebApi", "Azure"]
       }
-    ]
+    ],
+    "logo": "mindtreelogo"
   },
   {
     "id": 2,
@@ -46,6 +47,7 @@
       "Angular 8",
       "Nrwl",
       "Azure Service Fabric"
-    ]
+    ],
+    "logo": "hachlogo"
   }
 ]

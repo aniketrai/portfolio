@@ -5,17 +5,47 @@
     "duration": "Jan 2017 - Jun 2019",
     "title": "Software Engineer",
     "jobDescription": [
-      "Worked with latest Microsoft technologies as a Full stack engineer.",
-      "Being a part of CTO group(MS CoE) worked on multiple PoCs to which were demonstrated to client and helped to win the contract. "
+      "Worked with latest Microsoft technologies as a Full stack engineer in client projets.",
+      "Being a part of CTO group(MS CoE) worked on multiple PoCs to which were demonstrated to client and helped to win the contract."
+    ],
+    "techStack": ["ASP.NET WebApi", "Azure", "Angular 4"],
+    "projects": [
+      {
+        "projectName": "One of the world's leading specialist in air transport communications and information technology.",
+        "description": "",
+        "significantContributions": [
+          "Developing ASP.NET Web APIs",
+          "Implementing generic Global search using dynamic expression predicate",
+          "Implementing generic audit trace from complete application."
+        ],
+        "techStack": ["Angular 4", ".NET WebApi", "Azure"]
+      },
+      {
+        "projectName": "One of the world's leading specialist in air transport communications and information technology.",
+        "description": "",
+        "significantContributions": [
+          "Developing ASP.NET Web APIs",
+          "Implementing generic Global search using dynamic expression predicate",
+          "Implementing generic audit trace from complete application."
+        ],
+        "techStack": ["Angular 4", ".NET WebApi", "Azure"]
+      }
     ]
   },
   {
     "id": 2,
-    "companyName": "Hach|Danaher Corporation",
-    "duration": "Jun 2019 - present",
+    "companyName": "Hach|Danaher",
+    "duration": "Jun 2019 - Present",
     "title": "Software Engineer II",
     "jobDescription": [
-      "Joined Mindtree as a Fresher. Underwent training for 3 months, later got tagged to CTO group of Mindtree."
+      "Working as a full stack engineer in edge cutting technologies like Service Fabric(for building microservies), Azure and Angular"
+    ],
+    "techStack": [
+      ".NET Core",
+      "Azure",
+      "Angular 8",
+      "Nrwl",
+      "Azure Service Fabric"
     ]
   }
 ]

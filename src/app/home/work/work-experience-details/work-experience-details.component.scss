@@ -1,10 +1,7 @@
-mat-divider {
-  // border: solid#00003f;
-}
 
 mat-expansion-panel {
   margin-top: 1.5rem;
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
 }
 
 mat-panel-description {
@@ -13,10 +10,10 @@ mat-panel-description {
 
 .vertical-divider {
   border-left: 6px solid white;
-  height: 5rem;
+  height: 2rem;
   position: absolute;
   left: 48%;
-  margin-top: -5rem;
+  margin-top: -2rem;
 }
 .details {
   margin-top: 1rem;

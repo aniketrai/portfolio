@@ -1,13 +1,15 @@
+@import "../../../styles/variables";
+
 .navigation {
   margin-top: 2rem;
-  background-color:#00003f;
+  background-color: $base-color;
 
   mat-nav-list {
     a {
       color: white;
     }
 
-    mat-icon{
+    mat-icon {
       margin-right: 1rem;
     }
   }

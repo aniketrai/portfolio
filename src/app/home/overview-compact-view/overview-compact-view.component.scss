@@ -1,8 +1,10 @@
+@import "../../../styles/variables";
+
 .card-section {
   margin: 0.5rem;
 
   mat-card {
-    background-color:#00003f;
+    background-color:$base-color;
     color: white;
   }
 

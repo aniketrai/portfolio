@@ -1,10 +1,12 @@
+@import '../../../../styles/variables';
+
 div {
   margin-top: 0.2rem;
   color: white;
 }
 
 .details {
-  color:#00003f;
+  color:$base-color;
 }
 
 .heading {
@@ -15,7 +17,7 @@ div {
 
 
 mat-panel-title {
-  color:#00003f !important;
+  color:$base-color !important;
 }
 
 .mindtree-avator {

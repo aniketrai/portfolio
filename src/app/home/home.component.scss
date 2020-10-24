@@ -1,4 +1,4 @@
-@import '../../styles/styles.scss';
+@import '../../styles/variables';
  
 mat-card {
   background-color: $base-color;
@@ -31,10 +31,10 @@ mat-grid-tile {
   }
 
   mat-toolbar {
-    background-color:#00003f;
+    background-color:$base-color;
     height: 5rem;
   }
   mat-menu {
-    background-color:#00003f;
+    background-color:$base-color;
   }
 }

@@ -1,0 +1,20 @@
+@import '../../../../styles/variables';
+
+div {
+  margin-top: 0.2rem;
+  color: white;
+}
+
+.details {
+  color:$base-color;
+}
+
+.heading {
+  font-size: 1.2rem;
+  font-family: $default-font-familty;
+}
+
+mat-panel-title {
+  color:$base-color !important;
+}
+

@@ -1,0 +1,17 @@
+@import "../../../styles/variables";
+
+.navigation {
+  margin-top: 2rem;
+  background-color: $base-color;
+
+  mat-nav-list {
+    a {
+      color: white;
+      font-family: $default-font-familty;
+    }
+
+    mat-icon {
+      margin-right: 1rem;
+    }
+  }
+}

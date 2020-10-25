@@ -1,0 +1,29 @@
+<div fxLayout.gt-sm="row" *ngIf="isDesktop">
+  <div fxFlexOffset.gt-sm="2"></div>
+  <div fxFlex class="main">
+    <mat-grid-list cols="5" [rowHeight]="screenHeight">
+      <mat-grid-tile [colspan]="1" [rowspan]="1">
+        <mat-card>
+          <mat-card-content>
+            <app-nav-bar></app-nav-bar>
+            <app-nav-bar-menu></app-nav-bar-menu>
+          </mat-card-content>
+        </mat-card>
+      </mat-grid-tile>
+      <mat-grid-tile [colspan]="4" [rowspan]="1">
+        <div class="container">
+          <router-outlet></router-outlet>
+        </div>
+      </mat-grid-tile>
+    </mat-grid-list>
+    <a
+      href="https://github.com/aniketrai/portfolio/tree/develop"
+      target="_blank">
+      Source Code
+      </a>
+  </div>
+  <div fxFlexOffset.gt-sm="2"></div>
+</div>
+<div fxLayout="column" *ngIf="!isDesktop" class="mobile-view">
+  <app-overview-compact-view></app-overview-compact-view>
+</div>

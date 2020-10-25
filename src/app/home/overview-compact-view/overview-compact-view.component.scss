@@ -1,0 +1,17 @@
+@import "../../../styles/variables";
+
+.card-section {
+  margin: 0.5rem;
+
+  mat-card {
+    background-color:$base-color;
+    color: white;
+    font-family: $default-font-familty;
+  }
+
+  .avator {
+    max-width: 95%;
+    border-radius: 50%;
+    margin-top: 1.5rem;
+  }
+}

@@ -1,0 +1,28 @@
+<div *ngFor="let data of workDetails; let lastIndex = last">
+  <mat-expansion-panel [expanded]="true">
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        <mat-icon svgIcon="{{ data.logo }}"></mat-icon>
+        {{ data.companyName }}
+      </mat-panel-title>
+      <mat-panel-description
+        ><span id="timespan">{{ data.duration }}</span>
+      </mat-panel-description>
+    </mat-expansion-panel-header>
+    <mat-divider></mat-divider>
+    <div class="details">
+      <strong>Title: </strong> {{ data.title }}
+      <br />
+      <strong>Roles & Responsibilties:</strong>
+      <li *ngFor="let role of data.jobDescription">
+        {{ role }}
+      </li>
+      <strong>Technologies:</strong>
+      <li *ngFor="let stack of data.techStack">
+        {{ stack }}
+      </li>
+    </div>
+  </mat-expansion-panel>
+
+  <div class="vertical-divider" *ngIf="!lastIndex"></div>
+</div>

@@ -1,0 +1,26 @@
+@import "../../../../styles/variables";
+
+mat-expansion-panel {
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+mat-expansion-panel-header,
+.mat-expansion-panel-content {
+  font-family: $default-font-familty;
+}
+
+mat-panel-description {
+  text-align: right;
+}
+
+.vertical-divider {
+  border-left: 6px solid white;
+  height: 2rem;
+  position: absolute;
+  left: 48%;
+  margin-top: -2rem;
+}
+.details {
+  margin-top: 1rem;
+}

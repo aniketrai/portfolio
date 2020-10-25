@@ -9,10 +9,9 @@ import { debounceTime, distinctUntilChanged, map, startWith, tap } from 'rxjs/op
 })
 export class HomeComponent implements OnInit, OnDestroy {
   desktopWidth = 1024;
-
+  screenHeight: string;
   isDesktop: boolean;
   resizeSubscription: Subscription;
-
   constructor() { }
 
   ngOnInit() {
@@ -23,7 +22,10 @@ export class HomeComponent implements OnInit, OnDestroy {
         distinctUntilChanged(),
         startWith(window.innerWidth),
         tap(x => x > this.desktopWidth ? this.isDesktop = true : this.isDesktop = false),
-        tap(x => console.log(this.isDesktop))
+        tap(() => {
+          console.log(this.isDesktop);
+          this.screenHeight = (window.innerHeight-50) + 'px';
+        })
       ).subscribe();
   }
 

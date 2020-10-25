@@ -1,7 +1,7 @@
 <div fxLayout.gt-sm="row" *ngIf="isDesktop">
   <div fxFlexOffset.gt-sm="2"></div>
   <div fxFlex class="main">
-    <mat-grid-list cols="5" rowHeight="43rem">
+    <mat-grid-list cols="5" [rowHeight]="screenHeight">
       <mat-grid-tile [colspan]="1" [rowspan]="1">
         <mat-card>
           <mat-card-content>

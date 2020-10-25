@@ -24,7 +24,7 @@ export class HomeComponent implements OnInit, OnDestroy {
         tap(x => x > this.desktopWidth ? this.isDesktop = true : this.isDesktop = false),
         tap(() => {
           console.log(this.isDesktop);
-          this.screenHeight = (window.innerHeight-50) + 'px';
+          this.screenHeight = (window.innerHeight-55) + 'px';
         })
       ).subscribe();
   }

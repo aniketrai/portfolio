@@ -13,6 +13,11 @@ mat-card {
     width: 100%;
     overflow: hidden;
   }
+  a{
+    text-decoration: none;
+    color: $base-color;
+    margin-left: 50%;
+  }
 }
 
 mat-grid-tile {

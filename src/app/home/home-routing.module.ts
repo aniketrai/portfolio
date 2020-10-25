@@ -1,6 +1,5 @@
 import { Routes } from '@angular/router';
 import { HomeComponent } from './home.component';
-import { SkillsComponent } from './skills/skills.component';
 import { OverviewComponent } from './overview/overview.component';
 
 export const appRoutes: Routes = [
@@ -9,7 +8,7 @@ export const appRoutes: Routes = [
     children: [
       {
         path: 'skills',
-        component: SkillsComponent
+        loadChildren: () => import('./skills/skills.module').then(mod => mod.SkillsModule),
       },
       {
         path: 'work',

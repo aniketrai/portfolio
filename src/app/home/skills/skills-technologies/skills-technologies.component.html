@@ -1,0 +1,12 @@
+<div class="main">
+  <div>Tools &Technologies</div>
+
+  <ul *ngFor="let skill of (skills$ | async)">
+    <li>
+      <app-star-rating
+        [rating]="skill.rating"
+        [name]="skill.name"
+      ></app-star-rating>
+    </li>
+  </ul>
+</div>

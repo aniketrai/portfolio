@@ -1,1 +1,8 @@
-<p>star-rating works!</p>
+<div class="  ">
+  <div class="skill-name">{{ name }}</div>
+  <div>
+    <mat-icon *ngFor="let rate of scores">
+      {{ rate <= rating ? "star" : "star_border" }}
+    </mat-icon>
+  </div>
+</div>

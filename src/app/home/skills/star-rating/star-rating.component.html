@@ -1,6 +1,6 @@
-<div class="  ">
-  <div class="skill-name">{{ name }}</div>
-  <div>
+<div fxLayout.gt-sm="row" fxLayout="column">
+  <div class="skill-name" fxFlex="30">{{ name }}</div>
+  <div fxFlex>
     <mat-icon *ngFor="let rate of scores">
       {{ rate <= rating ? "star" : "star_border" }}
     </mat-icon>

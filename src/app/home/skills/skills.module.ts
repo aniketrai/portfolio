@@ -4,6 +4,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { CoreModule } from '../../core/core.module';
 import { SkillsComponent } from './skills.component';
 import { StarRatingComponent } from './star-rating/star-rating.component';
+import { SkillsTechnologiesComponent } from './skills-technologies/skills-technologies.component';
 
 const appRoutes: Routes = [
     {
@@ -15,7 +16,8 @@ const appRoutes: Routes = [
 @NgModule({
     declarations: [
         SkillsComponent,
-        StarRatingComponent
+        StarRatingComponent,
+        SkillsTechnologiesComponent
     ],
     imports: [
         CommonModule,

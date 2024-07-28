@@ -1,0 +1,42 @@
+[
+  {
+    "name": "C#",
+    "rating": 4
+  },
+  {
+    "name": "WebAPI",
+    "rating": 4
+  },
+  {
+    "name": ".NET Core",
+    "rating": 4
+  },
+  {
+    "name": "Micro-services",
+    "rating": 3
+  },
+  {
+    "name": "Angular",
+    "rating": 4
+  },
+  {
+    "name": "RxJs",
+    "rating": 2
+  },
+  {
+    "name": "Ngrx/Ngrx-Data",
+    "rating": 3
+  },
+  {
+    "name": "Azure",
+    "rating": 3
+  },
+  {
+    "name": "Design patterns",
+    "rating": 3
+  },
+  {
+    "name": "Data structures",
+    "rating": 3
+  }
+]
